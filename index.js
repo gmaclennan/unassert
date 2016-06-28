@@ -18,6 +18,7 @@ var esprima = require('esprima');
 var deepEqual = require('deep-equal');
 var patterns = [
     'assert(value, [message])',
+    'assert(value, errorCode, [message])',
     'assert.ok(value, [message])',
     'assert.equal(actual, expected, [message])',
     'assert.notEqual(actual, expected, [message])',
