@@ -1,7 +1,7 @@
 /**
  * unassert
  *   Encourage reliable programming by writing assertions in production code, and compiling them away from release
- * 
+ *
  * https://github.com/twada/unassert
  *
  * Copyright (c) 2015-2016 Takuto Wada
@@ -41,7 +41,10 @@ var declarationPatterns = [
     'var assert = require("assert")',
     'import assert from "power-assert"',
     'import * as assert from "power-assert"',
-    'var assert = require("power-assert")'
+    'var assert = require("power-assert")',
+    'import assert from "http-assert"',
+    'import * as assert from "http-assert"',
+    'var assert = require("http-assert")'
 ];
 var declarationMatchers = [];
 var importDeclarationMatchers = [];

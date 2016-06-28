@@ -26,10 +26,12 @@ describe('unassert', function () {
     testTransform('commonjs');
     testTransform('commonjs_singlevar');
     testTransform('commonjs_powerassert');
+    testTransform('commonjs_http');
     testTransform('assignment');
     testTransform('assignment_singlevar');
     testTransform('es6module');
     testTransform('es6module_powerassert');
+    testTransform('es6module_http');
     testTransform('es6module_namespece');
     testTransform('not_an_expression_statement');
 });
